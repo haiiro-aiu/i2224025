@@ -1,0 +1,209 @@
+ <html>
+
+
+   <head>
+     <meta chearset="utf-8">
+     <mata http-equiv="content-langage" content="ja">
+      <script>
+        var CookieMC={
+	get:function(name) {
+		var match=('; '+document.cookie+';').match('; '+name+'=(.*?);');
+		return match?decodeURIComponent(match[1]):'';
+	},
+	set:function(name,value,expires,domain,path,secure) {
+		var cookieTemp=name+'='+encodeURIComponent(value);
+		if (typeof expires!='undefined') cookieTemp+='; expires='+new Date(expires).toUTCString();
+		if (typeof domain!='undefined') cookieTemp+='; domain='+domain;
+		if (typeof path!='undefined') cookieTemp+='; path='+path;
+		if (secure) cookieTemp+='; secure';
+		document.cookie=cookieTemp;
+	}
+};
+chkAgeKey='MediaClip';
+inAgeKey='OK18';
+mcexpires=new Date();
+mcexpires.setFullYear(mcexpires.getFullYear()+1); /* 保存期間：1年 */
+if (CookieMC.get(chkAgeKey) != inAgeKey) {
+	chkAge=confirm('はじめまして\n\n見ていただきありがとうございます。当ページを他に転載、拡散、公開することを禁止します。');
+	if (chkAge == false) {
+		inAgeKey='';
+		window.location = "http://www.google.co.jp/";
+	}
+}
+CookieMC.set(chkAgeKey,inAgeKey,mcexpires,document.domain,'/');
+    </script>
+   </head>
+
+<body>
+
+  <header id="header">
+    
+
+
+    <div class="inner">
+      <link rel="stylesheet" href="header.css">
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="nav">
+          
+          <link rel="stylesheet" href="hamburger.css">
+      
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input id="drawer_input" class="drawer_hidden" type="checkbox">
+      
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer_input" class="drawer_open"><span></span></label>
+      
+          <!-- メニュー -->
+          <nav class="nav_content">
+            <ul class="nav_list">
+              <link rel="stylesheet" href="hamburger.css">
+              <link rel="stylesheet" href="menu_style.css">
+              
+
+            <ul class="menu">
+              <link rel="stylesheet" href="menu_style.css">
+              <li><a href="index.html"style="text-decoration:none;">portfolio</style></a></li><br>
+              <li><a href="index02.html"style="text-decoration:none;">profile</a></li><br>
+              
+           </ul>
+          </nav>
+      
+      
+      
+        </div>
+      </ul>
+    </div>
+      
+      
+
+<body bgcolor="#e8e6e6">
+
+
+
+
+
+</body>
+
+
+
+     
+      
+        <style>
+          .fade{
+              animation: fadeIn 3s ;
+            }
+            @keyframes fadeIn
+            {
+              0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }
+          }
+
+          </style>
+
+
+ 
+
+
+
+
+
+
+
+
+
+     
+<img src="2224025_kirakira02.gif">
+<link rel="stylesheet" href="style01.css">
+      
+  </header>
+
+
+
+
+
+  
+
+
+  <style>
+    .fade{
+        animation: fadeIn 3s ;
+      }
+      @keyframes fadeIn
+      {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+    
+    </style>
+
+<br>
+
+
+<div id="top">
+  <div class="video">
+    <video src="siro_hai_GIFyou2.mp4" autoplay loop muted playsinlin>
+    </video>
+ </div>
+
+ 
+  
+    <div class="item-list">
+      <link rel="stylesheet" href="style02.css">
+      <div class="item">
+        <figure class="image"><img src="kakukakuha-to_fure-mu02.gif" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+          <p class="description"><font color=#8d8b8b>ループ映像をつくるためgif形式で作成</font></p>
+        </div>
+        
+      </div>
+      <div class="item">
+        <figure class="image"><img src="zeri-_fure-mu03.png" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+          <p class="description"><font color=#8d8b8b>YouTube動画を参考に作成</font></p>
+        </div>
+        
+      </div>
+      <div class="item">
+        <figure class="image"><img src="fuusenn_fure-mu02.png" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+          <p class="description"><font color=#8d8b8b>YouTube動画を参考に作成</font></p>
+        </div>
+        
+      </div><div class="item">
+        <figure class="image"><img src="web_ennsyuu_hotelu_fure-mu01.png" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>FIGMA</font></p>
+          <p class="description"><font color=#8d8b8b>WEB演習の授業課題として作成</font></p>
+        </div>
+        
+      </div><div class="item">
+        <figure class="image"><img src="kyouikuronn_fure-mu01.png" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>aftereffect</font></p>
+          <p class="description"><font color=#8d8b8b>学芸員課程の教育論の授業課題として作成</font></p>
+        </div>
+        
+      </div>
+    </div>
+    
+   
+   
+
+  </div>
+
+  
+
+  </body>
+</body>
+    </html>
