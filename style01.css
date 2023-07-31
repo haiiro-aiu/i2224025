@@ -1,0 +1,67 @@
+img{
+   
+    display: block;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    margin: auto -90;
+    max-width: 80%;
+    max-height: 100%;
+
+}
+#top img{
+    position:relative; 
+    left:24%;
+    height: 1080px auto;
+    width: 800px auto;
+}
+
+.top02 img{
+    position:absolute;
+    left: 0;
+    top: 120px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#top{
+    position:relative; 
+    float: center;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    
+   }
+
+
+
+
+.fadein {
+    opacity: 0;
+    animation: fadein 4s ease forwards;
+   }
+   @keyframes fadein {
+    100% {  opacity: 1;}
+   }
+
+   .txt01 {
+    animation-delay: 0.1s;
+}
+   .txt02 {
+    animation-delay: 0.5s;
+}
+   .txt03 {
+    animation-delay: 1s;
+}
+   .txt04 {
+    animation-delay: 1.5s;
+}
+   .txt05 {
+    animation-delay: 2s;
+}
+
+
+
+
+   
