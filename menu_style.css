@@ -1,0 +1,19 @@
+.menu{
+    
+     list-style-type: none;
+     display:block;
+     margin-top: 250;
+     
+     width: 89px;
+     font-size: 40;
+     
+}
+
+a{
+    color:#e8e6e6;
+    text-decoration:none;
+    text-align:center;
+    font-family: 'Chonburi', cursive;
+font-family: 'Prata', serif;
+
+}
